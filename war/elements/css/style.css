@@ -1,0 +1,47 @@
+body {
+	background-color: DeepSkyBlue;
+	font-family: 'Noto Sans', sans-serif;
+}
+
+#topBar {
+	font-weight: 900;
+	font-size: 20pt;
+	background-color: DodgerBlue;
+	max-height: 200px;
+	padding-left: 30px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	border-style:ridge;
+	border-width:5px;
+	border-color:blue;
+}
+
+#content {
+	margin-top: 40px;
+	margin-left: 40px;
+}
+
+#menuBar {
+	height: 2em;
+	clear: both;
+}
+
+#menuBar ul {
+	margin: 0;
+	padding: 0;
+}
+
+#menuBar li {
+	border-radius: 0 0 .6em .6em;
+	background-color: white;
+	height: 2em;
+	line-height: 2em;
+	padding: 0 1em;
+	margin: 0 .1em;
+	list-style: none;
+	float: left;
+}
+
+#menuBar li:hover {
+	background-color: blue;
+}
