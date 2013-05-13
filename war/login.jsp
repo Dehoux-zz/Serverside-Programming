@@ -1,8 +1,5 @@
-<html>
-<head>
+<jsp:include page="elements/header.jsp"><jsp:param name="title" value="Register" /></jsp:include>
 
-</head>
-<body>
 	<div id="account">
 		<form action="LogServlet.do" method="post">
 			<div id="messagebox">
@@ -21,8 +18,4 @@
 		</form>
 	</div>
 	
-	<a href="Register.jsp">Register</a>
-
-
-</body>
-</html>
+<%@	include file="elements/footer.jsp" %>

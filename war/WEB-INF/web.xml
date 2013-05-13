@@ -5,7 +5,7 @@
 	version="2.4">
 	<servlet>
 		<servlet-name>LogServlet</servlet-name>
-		<servlet-class>nl.hu.sp.lesson1.dynamicexample.LogServlet
+		<servlet-class>Serverside.LogServlet
 			</servlet-class>
 	</servlet>
 
@@ -16,7 +16,7 @@
 	
 	<servlet>
 		<servlet-name>RegisterServlet</servlet-name>
-		<servlet-class>nl.hu.sp.lesson1.dynamicexample.RegisterServlet
+		<servlet-class>Serverside.RegisterServlet
 			</servlet-class>
 	</servlet>
 
